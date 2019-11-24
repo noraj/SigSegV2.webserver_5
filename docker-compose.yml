@@ -1,0 +1,21 @@
+# Author: noraj
+version: '3'
+services:
+  webserver5:
+    build: .
+    image: webserver5
+    user: noraj
+    container_name: webserver5
+    ports:
+      - "42425:9999" # port externe / port du docker
+    networks:
+      - webserver5
+    restart: always
+    read_only: true
+
+networks:
+  webserver5:
+    driver: bridge
+    driver_opts:
+      com.docker.network.bridge.enable_ip_masquerade: "false" # le container n'aura pas acces a internet
+      com.docker.network.bridge.name: "webserver_5" # nom du repo
