@@ -109,3 +109,8 @@ More about backdored backdoors: https://rawsec.ml/en/c99-php-backdoor-backdoored
 
 `sigsegv{∙∙∙∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒnorajᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙∙∙∙}`
 
+## SigSegV2
+
+A web challenge that was available during SigSegV2 CTF (2019).
+
+10 teams on 36 flaged this challenge.
