@@ -1,4 +1,4 @@
-# c999shell PHP backdoor
+# b374k.php webshell / c99 style PHP backdoor
 
 ## Version
 
